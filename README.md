@@ -9,7 +9,7 @@ This project is a re-design of a pet clinic website. It is the live version of w
 
 The course guides students through the process of designing a user interface, including: discussing stakeholder and audience needs, developing website architecture, designing a wireframe, and producing a working prototype of said wireframe with responsive web design in mind. 
 
-You can view the original UI specifications for the project here, the original website here, and my proposals for improvements here.
+You can view the original UI specifications for the project <a href="https://www.dropbox.com/scl/fi/4zn14j1zlwaulnk27p9kd/Paradigm-Pet-Professionals-UI-Design-Specifications.docx?dl=0&rlkey=ruj4sn2gvd2quin8qn4zuudnv">here</a>, the original website here, my proposals for improvements <a href="https://www.dropbox.com/scl/fi/pmwtr1m8ekfi1cyf43cej/Amanda_Hayes_C773_Task_1.docx?dl=0&rlkey=vsl5vo08g28yfq5ylxr2vyguu">here</a>, and the wireframe <a href="https://www.figma.com/proto/QrX2gA5NGDvNuQHby4sUgT/c773?node-id=67%3A1419&scaling=scale-down&page-id=0%3A1&starting-point-node-id=67%3A1419">here</a>.
 
 # Installation Instructions
 
