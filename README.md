@@ -23,11 +23,11 @@ To install and run this project on your own computer, perform the following acti
 
 3. Clone the project to the folder you chose in Step 2.
 
-> `git clone git@github.com:ahayes9247/anime-quotes-generator.git`
+> `git clone git@github.com:ahayes9247/paradigm-pet.git`
 
 4. Change directories into your newly cloned folder.
 
-> `cd anime-quotes-generator`
+> `cd paradigm-pet`
 
 5. Install the project to your computer.
 
