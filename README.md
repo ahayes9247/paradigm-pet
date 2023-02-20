@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# Navigation
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center"><a href="#introduction">Introduction</a> &bull; <a href="#installation-instructions">Installation Instructions</a> &bull; <a href="#additional-installation-notes">Additional Installation Notes</a> &bull;<br> <a href="#tech-stack">Tech Stack</a> &bull; <a href="#credits">Credits</a> &bull; <a href="#copyright">Copyright</a></div>
 
-## Available Scripts
 
-In the project directory, you can run:
+# Introduction
 
-### `npm start`
+This project is a re-design of a pet clinic website. It is the live version of work done for the course <strong>C773, User Interface Design</strong>, at <strong>Western Governor's University</strong>. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The course guides students through the process of designing a user interface, including: discussing stakeholder and audience needs, developing website architecture, designing a wireframe, and producing a working prototype of said wireframe with responsive web design in mind. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+You can view the original UI specifications for the project here, the original website here, and my proposals for improvements here.
 
-### `npm test`
+# Installation Instructions
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To install and run this project on your own computer, perform the following actions:
 
-### `npm run build`
+1. Open your terminal. On Windows, this is also known as the Command Prompt.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Change directories to the folder you want to install the project in:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+> `cd {folderpath}`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Clone the project to the folder you chose in Step 2.
 
-### `npm run eject`
+> `git clone git@github.com:ahayes9247/anime-quotes-generator.git`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. Change directories into your newly cloned folder.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+> `cd anime-quotes-generator`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+5. Install the project to your computer.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+> `npm install`
 
-## Learn More
+6. Run the app.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+> `npm start`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+7. To close the app, type CTRL + C, then type Y when the terminal asks whether you want to close the app.
 
-### Code Splitting
+# Additional Installation Notes
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Common Errors
 
-### Analyzing the Bundle Size
+### react-scripts error
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+You may encounter an error that says that "react-scripts is not recognized as an internal or external command, operable program or batch file." If this happens, you can correct the error using the following code:
 
-### Making a Progressive Web App
+> `npm install react-scripts --save`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Then type:
 
-### Advanced Configuration
+> `npm install`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Then press enter, and the program should open in your browser.
 
-### Deployment
+## Open Ports
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Closing the port when you are no longer using it is important to your computer's security. Closing the port will also ensure that the port is available when you want to run other projects on that port.
 
-### `npm run build` fails to minify
+To close Port 3000, open your terminal and enter the following code:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> npx kill-port 3000
+
+# Tech Stack 
+
+* HTML5
+* CSS3
+* React
+* Visual Studio Code
+* Git and GitHub
+
+# Credits
+* Images from [Unsplash](https://unsplash.com)
+
+# Copyright
+
+Copyright © 2023 Amanda Hayes
