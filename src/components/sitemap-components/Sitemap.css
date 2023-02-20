@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+/* Set CSS rules for the navigation bar for mobile devices. */
+
+@media only screen and (max-width: 600px) {
+  .sitemap-links-list {
+    margin: 0% 0% 0% 10%;
+    padding: 0px;
+    list-style-type: none;
+  }
+  
+  .sitemap-links-item {
+    margin: 0px 0px 10px 0px;
+    line-height: 400%;
+  }
+  
+  .sitemap-links-item a, 
+  .sitemap-links-item a:link, 
+  .sitemap-links-item a:hover, 
+  .sitemap-links-item a:visited {
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #6699CC;
+    text-decoration: underline;
+  }
+}
+
+/* Set CSS rules for the navigation bar for desktop devices. */
+
+@media only screen and (min-width: 768px) {
+    .sitemap-links-list {
+      margin: 0px;
+      padding: 0px;
+      list-style-type: none;
+    }
+    
+    .sitemap-links-item {
+      margin: 0px 0px 10px 0px;
+    }
+    
+    .sitemap-links-item a, 
+    .sitemap-links-item a:link, 
+    .sitemap-links-item a:hover, 
+    .sitemap-links-item a:visited {
+      display: inline;
+      font-family: 'Roboto', sans-serif;
+      font-size: 18px;
+      color: #6699CC;
+      text-decoration: underline;
+    }
+}

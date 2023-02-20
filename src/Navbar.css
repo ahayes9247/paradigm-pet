@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/* Set CSS rules for the navigation bar for mobile devices. */
+
+@media only screen and (max-width: 600px) {
+    /* Set mobile CSS rules for the navigation bar container. */
+    #navbar {
+        margin: 3% 0% 0% 0%;
+        text-align: center;
+        width: 100%;
+    }
+
+        /* Set CSS rules for the links list in the navigation bar. */
+
+        #navbar ul {
+            display: inline;
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
+        }
+    
+        #navbar li { 
+            color: #6699CC;
+            text-decoration: none;
+            margin: 0% 0% 10% 0%;
+        }
+
+        #nav-logo { 
+            display: none;
+        }
+
+    /* Set CSS rules for anchor links in the navigation bar. */
+    .inactive a, 
+    .inactive a:link, 
+    .inactive a:hover, 
+    .inactive a:visited { 
+        color: #6699CC;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 24px;
+    }
+
+    /* Set CSS rules for active & inactive links in the navigation bar. */
+
+    .active a, 
+    .active a:link, 
+    .active a:hover, 
+    .active a:visited {
+        color: #003B6D;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 24px;
+    }
+
+}
+
+/* Set CSS rules for the navigation bar for desktop devices. */
+
+@media only screen and (min-width: 768px) {
+    /* Set CSS rules for the navigation bar container. */
+    #navbar {
+        margin: 3% 0% 0% 0%;
+        text-align: center;
+        height: 5%;
+        width: 100%;
+    }
+
+    /* Set CSS rules for the links list in the navigation bar. */
+
+    #navbar ul {
+        display: inline;
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #navbar li { 
+        display: inline;
+        color: #6699CC;
+        text-decoration: none;
+    }
+
+    /* Set CSS rules for active & inactive links in the navigation bar. */
+    .inactive a, 
+    .inactive a:link, 
+    .inactive a:hover, 
+    .inactive a:visited { 
+        color: #6699CC;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 0% 2% 0% 0%;
+    }
+
+    a[class="active"] {
+        color: #003B6D !important;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 0% 2% 0% 0%;
+        font-weight: bold;
+      }
+
+    /* Set CSS rules for the logo in the navigation bar. */
+    #nav-logo {
+        width: 185px;
+        height: 80px;
+        vertical-align: middle;
+    }
+
+    /* Separate the navbar from the main content. */
+    #nav-separator {
+        color: #000;
+        opacity: 30%;
+        margin: 3% 0% 0% 0%;
+    }
+}

@@ -1,0 +1,157 @@
+/* Set CSS rules for the navigation bar for mobile devices. */
+
+@media only screen and (max-width: 600px) {
+    #article-image-right {
+        display: none;
+    }
+
+    #article-image-left {
+        display: none;
+    }
+
+    /* Set CSS rules for the Adoption Resource list. */
+    #adoption-resource-list li {
+        list-style-type: none;
+        line-height: 400%;
+    }
+
+    #adoption-resource-list a,
+    #adoption-resource-list a:link,
+    #adoption-resource-list a:hover,
+    #adoption-resource-list a:visited {
+        color: #6699CC;
+        text-decoration: none;
+    }
+
+    .article-button {
+        border: 1px solid #003B6D;
+        border-radius: 50px;
+        background-color: #003B6D;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: bold;
+        cursor: pointer;
+        padding: 5%;
+        width: 100%;
+        font-size: 24px;
+        margin: 0px auto;
+      }
+}
+
+/* Set CSS rules for the navigation bar for desktop devices. */
+
+@media only screen and (min-width: 768px) {
+    /* Set CSS rules for the header container to the left of images. */
+    #header-home {
+        margin: 0% 0% 0% 2%;
+        height: 100vh;
+    }
+
+    /* Set CSS rules for the header article to the left of images.*/
+    .header-article {
+        width: 50%;
+        text-align: justify;
+        position: relative;
+        float: left;
+    }
+
+    /* Align article image to the right of the article. */
+
+    #article-image-right {
+        width: 500px;
+        height: 400px;
+        position: absolute;
+        float: right;
+        padding: 0px 0px 0px 50px;
+        margin: 2% 0% 0% 0%;
+    }
+
+    /* Set CSS rules for the header article to the right of images.*/
+    .header-article-right {
+        width: 50%;
+        text-align: justify;
+        position: relative;
+        float: right;
+    }
+
+    /* Align article image to the left of the article. */
+
+    #align-header-right {
+        display: inline-flex;
+        flex-wrap: row wrap;
+        margin: 100px 0px 0px 20px;
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: stretch;
+        height: 100vh;
+      }
+      
+      #article-image-left {
+        width: 575px;
+        height: 400px;
+        flex: 0 1 auto;
+        align-self: auto;
+        padding: 0px 50px 0px 0px;
+      }
+      
+      #header-article-right {
+        flex: 0 1 auto;
+        align-self: auto;
+        width: 200%;
+      }
+
+    /* Set CSS rules for the Pet Discovery container. */
+    #section-discover {
+        margin: 0% 0% 0% 2%;
+        height: 100vh;
+    }
+
+    /* Set CSS rules for the Pet Discovery article.*/
+    .article-discover {
+        width: 50%;
+        text-align: justify;
+    }
+    /* Set CSS rules for the Adoption Resources container. */
+    #section-adoption {
+        margin: 0% 0% 0% 2%;
+        height: 100vh;
+    }
+
+    /* Set CSS rules for the Adoption Resources article.*/
+    .article-adoption {
+        width: 50%;
+        text-align: justify;
+        position: relative;
+        float: left;
+    }
+
+    /* Set CSS rules for the Adoption Resource list. */
+    #adoption-resource-list ul {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #adoption-resource-list li {
+        list-style-type: none;
+    }
+
+    #adoption-resource-list a,
+    #adoption-resource-list a:link,
+    #adoption-resource-list a:hover,
+    #adoption-resource-list a:visited {
+        color: #6699CC;
+        text-decoration: none;
+    }
+
+    .article-button {
+        border: 1px solid #003B6D;
+        border-radius: 50px;
+        background-color: #003B6D;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: bold;
+        width: 20%;
+        padding: 2%;
+        cursor: pointer;
+      }
+}

@@ -1,0 +1,163 @@
+/* Set CSS rules for the navigation bar for mobile devices. */
+
+@media only screen and (max-width: 600px) {
+  #form-home {
+    margin: 0% 0% 0% 2%;
+  }
+
+  /* Set the mobile CSS rules for the form labels. */
+  .pet-label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #676767;
+    display:block;
+    width:100%;
+    line-height: 500%;
+  }
+
+  .client-label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #676767;
+    display:block;
+    width:100%;
+    line-height: 500%;
+  }
+
+  /*Set the mobile CSS rules for the form inputs. */
+
+  .pet-input {
+    display: block;
+    width: 80%;
+    padding: 10px;
+    line-height: 200%;
+  }
+
+  .pet-input-dropdown {
+    width: 85%;
+    padding: 20px;
+  }
+
+  .client-input {
+    display: block;
+    width: 94.5%;
+    padding: 10px;
+    line-height: 200%;
+  }
+
+  .client-textarea-mobile {
+    width: 90%;
+    height: 10vh;
+    padding: 20px;
+    margin-bottom: 30%;
+  }
+
+  #tzone {
+    width: 100%;
+    padding: 20px;
+  }
+
+  /* Set the mobile CSS rules for the submit button. */
+  .contact-button {
+    border: 1px solid #003B6D;
+    border-radius: 50px;
+    background-color: #003B6D;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5%;
+    width: 100%;
+    font-size: 24px;
+    margin: 0px auto;
+  }
+}
+
+/* Set CSS rules for the navigation bar for desktop devices. */
+
+@media only screen and (min-width: 768px) {
+    /* Set CSS rules for the header container. */
+    #form-home {
+        margin: 0% 0% 0% 2%;
+        height: 100vh;
+    }
+
+    /* Set CSS rules for the header article.*/
+    .form-article {
+        width: 50%;
+        text-align: justify;
+    }
+
+    .contact-button {
+        border: 1px solid #003B6D;
+        border-radius: 50px;
+        background-color: #003B6D;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: bold;
+        width: 20%;
+        padding: 2%;
+        margin: 5% 0% 0% 0%;
+        cursor: pointer;
+      }
+
+
+/* Set CSS rules for the pet form. */
+
+.pet-label {
+    color: #676767;
+    font-weight: bold;
+    display: inline-block;
+    width: 200px;
+    line-height: 25px;
+    vertical-align: top;
+  }
+
+  .pet-input {
+    display: inline-block;
+    width: 170px;
+    margin-left: 0.5%;
+  }
+
+  .pet-input-dropdown {
+    margin-left: 1.1%;
+    width: 177px;
+  }
+  
+  /* Set CSS rules for the client form. */
+
+  .client-label {
+    color: #676767;
+    display: inline-block;
+    font-weight: bold;
+    width: 200px;
+    line-height: 25px;
+    vertical-align: top;
+  }
+  
+  .client-input {
+    display: inline-block;
+    width: 300px;
+  }
+  
+.client-textarea {
+    color: #676767;
+    font-weight: normal;
+    width: 300px;
+    height: 100px;
+  }
+  
+ .client-select {
+    color: #676767;
+    width: 307px;
+    line-height: 30px;
+  }
+
+  #form-submit-buttons {
+    margin-bottom: 5%;
+  }
+
+  #tzone {
+    margin-left: 0.5%;
+  }
+}

@@ -1,0 +1,261 @@
+/* Set CSS rules for the navigation bar for mobile devices. */
+
+@media only screen and (max-width: 600px) {
+    /* Set the CSS rules for the footer. */
+    footer body {
+        margin: 0px auto;
+      }
+      
+      footer {
+        margin: 0px auto;
+        width: 100%;
+        height: 50%;
+        background: #003B6D;
+        color: #fff;
+        justify-content: center;
+        text-align: center;
+      }
+
+      footer h1 {
+        font-size: 36px;
+        color: #fff;
+        text-transform: uppercase;
+      }
+
+      footer p {
+        color: #fff;
+      }
+      
+      footer a,
+      footer a:link,
+      footer a:hover,
+      footer a:visited {
+        color: #fff;
+        text-decoration: none;
+      }
+
+      /* Set CSS rules for the footer links list. */
+      #footer-nav ul {
+        display: inline;
+        list-style-type: none;
+      }
+
+      #footer-nav li {
+        font-size: 24px;
+        line-height: 80px;
+      }
+
+      /* Set the CSS rules for the footer links. */
+
+      #footer-nav a,
+      #footer-nav a:link,
+      #footer-nav a:hover,
+      #footer-nav a:visited {
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;        
+      }
+
+      /* Set the CSS rules for the form in the footer. */
+
+      .footer-form-item {
+        width: 50%;
+        margin: 0% 20% 0% 20%;
+        padding: 0% 0% 10% 0%;
+        text-transform: uppercase;
+      }
+
+      .footer-label {
+        margin: 0% 0% 10% 0%;
+        font-weight: bold;
+       }
+
+      .footer-input {
+        margin: 10% 0% 0% -20%;
+        padding: 10px;
+        width: 150%;
+      }
+
+      .footer-form-item textarea {
+        height: 100px;
+      }
+
+      .footer-button {
+        border: 1px solid #6699CC;
+        border-radius: 50px;
+        background-color: #6699CC;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: bold;
+        width: 30%;
+        padding: 3%;
+        cursor: pointer;
+        margin: 5% 20% 5% 10%;
+      }
+
+      /* Set the CSS rules for the social media icons. */
+
+      #footer-follow ul {
+        list-style-type: none;
+      }
+
+      #footer-follow li {
+        font-size: 48px;
+        margin: 0% 20% 0% 0%;
+      }
+
+      .social-item {
+        line-height: 100px;
+      }
+}
+
+/* Set CSS rules for the navigation bar for desktop devices. */
+@media only screen and (min-width: 768px) {
+
+    /* Set the CSS rules for the footer. */
+    body {
+        margin: 0px auto;
+      }
+      
+    footer {
+      margin: 0px auto;
+      width: 100%;
+      height: 50%;
+      background: #003B6D;
+      color: #fff;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      text-align: center;
+    }
+
+      footer h1 {
+        color: #fff;
+        text-transform: uppercase;
+      }
+
+      footer p {
+        color: #fff;
+      }
+      
+      footer a,
+      footer a:link,
+      footer a:hover,
+      footer a:visited {
+        color: #fff;
+        text-decoration: none;
+      }
+
+      /* Set the CSS rules for the footer columns. */
+      #footer-nav {
+        width: 25%;
+      }
+
+      #footer-contact {
+        width: 50%;
+      }
+
+      #footer-follow {
+        width: 25%;
+      }
+
+      /* Set CSS rules for the footer links list. */
+      #footer-nav ul {
+        list-style-type: none;
+        margin: 0% 30% 0% 30%;
+      }
+
+      #footer-nav li {
+        line-height: 25px;
+        text-align: left;
+      }
+
+      /* Set the CSS rules for the footer links. */
+
+      #footer-nav a,
+      #footer-nav a:link,
+      #footer-nav a:hover,
+      #footer-nav a:visited {
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;        
+      }
+
+      /* Sets the CSS rules for the form in the footer. */
+      #footer-contact form {
+        text-align: left;
+        margin: 0% 20% 0% 20%;
+        width: 100%;
+        vertical-align: top;
+      }
+
+      #footer-form {
+        text-align: left;
+      }
+
+      .footer-form-item {
+        padding: 0% 0% 2% 0%;
+        width: 600px;
+      }
+
+      .footer-label {
+        color: #fff;
+        display: inline-block;
+        width: 100px;
+        line-height: 25px;
+        vertical-align: top;
+        text-transform: uppercase;
+      }
+
+      .footer-input {
+        width: 300px;
+      }
+
+      #footer-contact textarea {
+        width: 300px;
+        height: 50px;
+      }
+
+      .footer-button {
+        border: 1px solid #6699CC;
+        border-radius: 50px;
+        background-color: #6699CC;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: bold;
+        width: 30%;
+        padding: 1%;
+        cursor: pointer;
+        margin: 5% 20% 5% 20%;
+      }
+
+    /* Set CSS rules for the social links in the footer. */
+    #social-icons {
+        margin: 0% 15% 0% 15%;
+        text-align: left;
+    }
+
+    #social-icons li {
+        font-size: 36px;
+        display: inline;
+        padding: 0% 10% 0% 0%;
+        margin: 0% auto;
+        line-height: 80px;
+        vertical-align: top;
+    }
+    
+    .social-item {
+      text-align: center;
+      justify-content: center;
+      color: #fff;
+      text-decoration: none;
+    }
+    
+    .social-item a,
+    .social-item a:link,
+    .social-item a:hover,
+    .social-item a:visited {
+      color: #fff;
+      text-decoration: none;
+    }
+}
