@@ -9,7 +9,7 @@ This project is a re-design of a pet clinic website. It is the live version of w
 
 The course guides students through the process of designing a user interface, including: discussing stakeholder and audience needs, developing website architecture, designing a wireframe, and producing a working prototype of said wireframe with responsive web design in mind. 
 
-You can view the original UI specifications for the project <a href="https://www.dropbox.com/s/ea3lvtp52xgbx9z/Paradigm%20Pet%20Professionals%20UI%20Design%20Specifications.pdf?dl=0">here</a>, the original website here, my proposals for improvements <a href="https://www.dropbox.com/s/ea3lvtp52xgbx9z/Paradigm%20Pet%20Professionals%20UI%20Design%20Specifications.pdf?dl=0">here</a>, and the wireframe <a href="https://www.figma.com/proto/QrX2gA5NGDvNuQHby4sUgT/c773?node-id=67%3A1419&scaling=scale-down&page-id=0%3A1&starting-point-node-id=67%3A1419">here</a>.
+You can view the original UI specifications for the project <a href="https://www.dropbox.com/s/ea3lvtp52xgbx9z/Paradigm%20Pet%20Professionals%20UI%20Design%20Specifications.pdf?dl=0">here</a>, the original website here, my proposals for improvements <a href="https://www.dropbox.com/s/2gfjit5hnzhv9er/Amanda_Hayes_C773_Task_1_Proposals.pdf?dl=0">here</a>, and the wireframe <a href="https://www.figma.com/proto/QrX2gA5NGDvNuQHby4sUgT/c773?node-id=67%3A1419&scaling=scale-down&page-id=0%3A1&starting-point-node-id=67%3A1419">here</a>.
 
 # Installation Instructions
 
